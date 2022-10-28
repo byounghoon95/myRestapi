@@ -1,4 +1,8 @@
 spring:
+  # Failed to start bean'documentationPluginsBootstrapper 에러해결
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/myrestapi?useSSL=false&serverTimezone=Asia/Seoul&characterEncoding=UTF-8
