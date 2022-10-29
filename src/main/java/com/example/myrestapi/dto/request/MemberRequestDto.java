@@ -1,8 +1,9 @@
 package com.example.myrestapi.dto.request;
 
 import com.example.myrestapi.entity.MemberEntity;
+import lombok.AllArgsConstructor;
 import lombok.Data;
-
+@AllArgsConstructor
 @Data
 public class MemberRequestDto {
     private String memberId;

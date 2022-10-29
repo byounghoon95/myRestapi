@@ -8,6 +8,7 @@ import lombok.Getter;
 public enum CodeEnum {
 
     SUCCESS("0000","SUCCESS"),
+    NO_VALUE("1000", "값을 조회하지 못했습니다."),
     UNKNOWN_ERROR("9999", "UNKNOWN_ERROR");
 
     private String code;
